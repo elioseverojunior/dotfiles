@@ -10,6 +10,7 @@ cd /Users/USER NAME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User 
 
 Paste this:
 
+```json
 {
     "installed_packages":
      [
@@ -30,9 +31,11 @@ Paste this:
          "TrailingSpaces"
      ]
 }
+```
 
 Open your "User Settings Preferences" in file "Sublime Text -> Preferences -> Settings - User"
 
+```json
 {
     "caret_extra_width": 1,
     "caret_style": "phase",
@@ -65,3 +68,4 @@ Open your "User Settings Preferences" in file "Sublime Text -> Preferences -> Se
     "trim_trailing_white_space_on_save": true,
     "word_wrap": false
 }
+```
