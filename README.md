@@ -2,11 +2,8 @@ backup of dot files used in my day-to-day (alias , iTerm , zsh , git , vim and o
 
 Sublime Text 3 (https://sublime.wbond.net/installation)
 
-- Windows
-cd $HOME/.config/sublime-text-3/Packages/User && touch Package\ Control.sublime-settings
-
-- Mac
-cd /Users/USER NAME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User && touch Package\ Control.sublime-settings
+- Windows - cd $HOME/.config/sublime-text-3/Packages/User && touch Package\ Control.sublime-settings
+- Mac - cd /Users/USER NAME/Library/Application\ Support/Sublime\ Text\ 3/Packages/User && touch Package\ Control.sublime-settings
 
 Paste this:
 
