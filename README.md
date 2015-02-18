@@ -18,8 +18,6 @@ Paste this:
          "ChangeQuotes",
          "ColorPicker",
          "Git",
-         "Git Status Files",
-         "GitGutter",
          "HighlightDuplicates",
          "HTMLAttributes",
          "HTMLBeautify",
