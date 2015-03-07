@@ -70,5 +70,11 @@ brew install maven
 brew install gradle
 brew install ant
 
+# ASP.NET vNext
+brew untap aspnet/k
+brew tap aspnet/k
+brew install mono
+brew install kvm
+
 # Remove outdated versions from the cellar.
 brew cleanup
