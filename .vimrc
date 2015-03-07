@@ -1,6 +1,4 @@
-if has('gui_running')
-    set number
-    syntax enable
-    set background=dark
-    colorscheme solarized
-endif
+" Use the Solarized Dark theme
+set background=dark
+colorscheme solarized
+let g:solarized_termtrans=1

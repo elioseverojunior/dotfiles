@@ -1,0 +1,18 @@
+{
+    "installed_packages":
+     [
+         "AdvancedNewFile",
+         "Alignment",
+         "AlignTab",
+         "BracketHighlighter",
+         "ChangeQuotes",
+         "ColorPicker",
+         "Git",
+         "HighlightDuplicates",
+         "HTMLAttributes",
+         "HTMLBeautify",
+         "Predawn",
+         "SideBarEnhancements",
+         "TrailingSpaces"
+     ]
+}

@@ -14,8 +14,4 @@ PATH=${PATH}:/usr/bin/
 PATH=${PATH}:/usr/sbin/
 PATH=${PATH}:/opt/local/bin/
 PATH=${PATH}:/opt/local/sbin/
-PATH=${PATH}:${M2_HOME}/bin/
-PATH=${PATH}:${NODE_HOME}/bin/
-PATH=${PATH}:${JAVA_HOME}/bin/
-PATH=${PATH}:${ECLIPSE_HOME}/
 export PATH

@@ -13,15 +13,3 @@ export JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Ho
 
 #default JDK is 8
 export JAVA_HOME=$JAVA_8_HOME
-
-# Maven
-export M2_HOME=~/Softwares/apache-maven-3.2.3
-export PATH=$PATH:$M2_HOME/bin
-
-# Node
-export NODE_HOME=~/Softwares/node-v0.10.32-darwin-x64
-export PATH=$PATH:$NODE_HOME/bin
-
-# Eclipse (eclim)
-export ECLIPSE_HOME=~/Softwares/eclipse-java-luna-SR1-macosx-cocoa-x86_64
-export PATH=$PATH:$ECLIPSE_HOME/bin
