@@ -16,13 +16,26 @@ To update, `cd` into your local `dotfiles` repository and then:
 source bootstrap.sh
 ```
 
-### Git
-
-don't forget
+Finally, run this :D
 
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email you@example.com
+./bootstrap.sh
+```
+
+### Git
+
+don't forget, edit .extras
+
+```
+# Git credentials
+# Not in the repository, to prevent people from accidentally committing under my name
+
+GIT_AUTHOR_NAME="Your name"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+git config --global user.name "$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="email@example.com"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
 ````
 
 ### Sensible OS X defaults
