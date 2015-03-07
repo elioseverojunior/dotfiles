@@ -34,10 +34,12 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew install bash-completion
 
+# Install oh-my-zsh
+brew install zsh
+
 # Install http utils
 brew install wget --with-iri
 brew install curl
-
 
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
