@@ -1,0 +1,13 @@
+version: 2
+#[optional parameters]
+clusters:
+  clustername1:
+    #[optional parameters]
+    hosts:
+      - serveraddress1
+      - serveraddress2
+  clustername2:
+    #[optional parameters]
+    hosts:
+      - serveraddress1
+      - serveraddress2
