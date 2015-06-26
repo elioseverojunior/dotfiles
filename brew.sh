@@ -64,5 +64,8 @@ brew cask install sublime-text3
 # MacVim
 brew cask install macvim
 
+# SSH
+brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb
+
 # Remove outdated versions from the cellar.
 brew cleanup
