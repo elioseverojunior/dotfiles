@@ -2,17 +2,12 @@
     "installed_packages":
      [
          "AdvancedNewFile",
-         "Alignment",
-         "AlignTab",
          "BracketHighlighter",
-         "ChangeQuotes",
-         "ColorPicker",
          "Git",
-         "HTMLAttributes",
-         "HTMLBeautify",
          "Predawn",
          "SideBarEnhancements",
          "Theme - Soda SolarizedDark",
+         "Solarized Toggle",,
          "TrailingSpaces"
      ]
 }

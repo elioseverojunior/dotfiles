@@ -33,14 +33,16 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
-#brew install others
+# Unzip tools others
 brew install git
 brew install p7zip
 brew install pigz
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
-# installation method.
 brew install node
+
+# Latest Java
+brew cask install java
 
 # Install utils for Java
 brew install maven
@@ -58,11 +60,14 @@ brew install caskroom/cask/brew-cask
 brew untap caskroom/versions
 brew tap caskroom/versions
 
-# Sublime-Text 3
-brew cask install sublime-text3
+# Sublime-Text
+brew cask install sublime-text
 
 # MacVim
 brew cask install macvim
+
+# Visual Studio Code
+brew cask install visual-studio-code
 
 # SSH
 brew install https://raw.githubusercontent.com/kadwanev/bigboybrew/master/Library/Formula/sshpass.rb

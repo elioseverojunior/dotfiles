@@ -8,13 +8,7 @@ Homebrew - http://brew.sh/ <br />
 ### Install
 
 ```bash
-git clone https://github.com/vitormmendes/dotfiles.git && cd dotfiles && source bootstrap.sh
-```
-
-To update, `cd` into your local `dotfiles` repository and then:
-
-```bash
-source bootstrap.sh
+git clone https://github.com/vitormmendes/dotfiles.git && cd dotfiles
 ```
 
 Don't forget, edit .extras file
@@ -34,7 +28,7 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 Finally, run this :D
 
 ```bash
-./bootstrap.sh
+sh bootstrap.sh
 ```
 
 ### Sensible OS X defaults
@@ -42,11 +36,23 @@ Finally, run this :D
 OS X defaults:
 
 ```bash
-./.osx
+sh osx.sh
 ```
 
 ### Homebrew formulae
 
 ```bash
-./brew.sh
+sh brew.sh
+```
+
+### Gem
+
+```bash
+sh gem.sh
+```
+
+To update content, `cd` into your local `dotfiles` repository and then:
+
+```bash
+source bootstrap.sh
 ```

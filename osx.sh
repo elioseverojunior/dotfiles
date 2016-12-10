@@ -78,9 +78,6 @@ defaults write com.apple.ActivityMonitor SortDirection -int 0
 cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Preferences.sublime-settings 2> /dev/null
 cp -r init/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings 2> /dev/null
 
-# Register 'subl'
-ln -s "/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl" ~/bin/subl
-
 ###############################################################################
 # Terminal & iTerm 2                                                          #
 ###############################################################################
